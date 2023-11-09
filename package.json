@@ -1,0 +1,22 @@
+{
+  "name": "askme-cli",
+  "version": "1.0.0",
+  "description": "It's a CLI project developed using Nodejs",
+  "main": "bin/index.js",
+  "scripts": {
+    "start": "node bin/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "askme": "./bin/index.js"
+  },
+  "type": "module",
+  "author": "Paras Patidar",
+  "license": "ISC",
+  "keywords": ["cli", "nodejs cli", "nodejs", "coding challenge"],
+  "dependencies": {
+    "boxen": "^7.1.1",
+    "chalk": "4.1.2",
+    "yargs": "^17.7.2"
+  }
+}
